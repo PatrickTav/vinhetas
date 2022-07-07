@@ -15,3 +15,11 @@
   margin: auto;
   text-align: justify;
 }
+@media (max-width:610px){
+  .about-container p{
+    font-size: .6em;
+    margin: auto;
+    max-width: 200px;
+    color: #2f0213;
+  }
+}
