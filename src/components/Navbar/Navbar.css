@@ -1,0 +1,29 @@
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul a{
+  list-style: none;
+  text-decoration: none;
+  margin-right: 20px;
+  
+  color: #FFF;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.active{
+  border-bottom:1px solid #FFF ;
+  
+}
+@media (max-width:610px){
+  ul {
+    font-size: .8em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

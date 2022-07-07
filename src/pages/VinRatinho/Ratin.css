@@ -1,0 +1,27 @@
+.ratin-container{
+  background-color: #e86f9e;
+  background-image: url(../../images/190507.jpg);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 100vh;
+  font-size: 1.8em;
+  color: #000000;
+}
+
+.embreve{
+  background-color: #FFFFFF;
+  color: #4e056c;
+}
+
+.provis img{
+  width: 300px;
+}
+@media (max-width:450px) {
+  .provis img{
+    width: 200px;
+  }
+  .ratin-container{
+    background-position: center;
+  }
+}

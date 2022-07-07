@@ -1,0 +1,39 @@
+.home-container {
+  background-color: #e86f9e;
+  background-image: url(../../images/rodrigo-faro-vai-apostar-em-quadro-de-sucesso-para-recuperar-audiencia-tvpop-1024x576.png);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+p {
+  color: rgb(253, 253, 253);
+  font-size: 2em;
+  margin-top: 0;
+  padding: 10px 0;
+}
+
+.audio-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto;
+  align-content: center;
+  gap: 10px;
+}
+
+@media (max-width:450px) {
+  .audio-container button {
+    width: 50px;
+    height: 50px;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  .home-container {
+    background-position-x: center;
+  }
+}

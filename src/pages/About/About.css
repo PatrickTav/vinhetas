@@ -1,0 +1,17 @@
+.about-container{
+  background-color: #e86f9e;
+  height: 100vh;
+}
+.about-container h2{
+  margin-top: 0;
+  padding-top: 20px;
+}
+.about-container p{
+  font-size: 1em;
+  color: #2f0213;
+}
+.section-container{
+  max-width: 600px;
+  margin: auto;
+  text-align: justify;
+}

@@ -1,0 +1,38 @@
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #5c0627;
+  box-sizing: border-box;
+}
+.header-container h1{
+ color: rgb(255, 255, 255);
+ font-weight: 700;
+ text-shadow: 1px 5px 20px #CCC;
+}
+.logo{
+  font-family: 'Splash', cursive;
+}
+
+.visual-mode {
+  width: 20em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sideBar{
+  display: none;
+  cursor: pointer;
+}
+.none{
+  display: none;
+}
+
+@media (max-width:610px){
+  .visual-mode {
+    margin: auto;
+  }
+  
+  .header-container{
+    flex-direction:column ;
+  }
+}
